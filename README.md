@@ -6,7 +6,7 @@ This project is the result of a web lab from a class at Télécom Paris.
 
 - Software Development - C++
 - User-Centered Design
-- Web Interfaces - Js & Node.js **This lab is fits here**
+- Web Interfaces - Js & Node.js _**This lab fits here**_
 - Arduino
 
 ## About this lab
