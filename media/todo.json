@@ -1,0 +1,19 @@
+[
+    {
+      "label": "Finish IGR203 Web Lab 1",
+      "finished": false
+    },
+    {
+      "label": "Go for a long walk",
+      "finished": false
+    },
+    {
+      "label": "Learn how to make pot stickers",
+      "finished": true,
+      "description": "They were delicious"
+    },
+    {
+      "label": "Read about Grace Hopper",
+      "finished": false
+    }
+]

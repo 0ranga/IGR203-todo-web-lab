@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>A simple to do list</h1>
+
+    <div class="add">
+        <div class="todo">
+            <p><input type="text" id="addTodo" placeholder="What do I need to do?"/></p>
+        </div>
+        <button onclick="importTasks()">Import tasks</button>
+        <div title="Delete all completed" class="trash" onclick="removeCompleted()">
+            <svg alt="trash icon" onclick="" viewBox="-3 0 25 23">
+                <use xlink:href="/trash.svg#trash"></use>
+            </svg>
+        </div>
+
+    </div>
+
+
+    <div class="added">
+
+    </div>
+
+
+    
+</body>
+</html>
