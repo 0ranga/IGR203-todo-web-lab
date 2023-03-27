@@ -29,7 +29,7 @@ function createTodo(label, finished=false){
     <p><input type="checkbox" id="${label}" ${finished ? "checked" : ""} onclick="saveTodo('${label}', this.checked)"/> <label for="${label}">${label}</label></p>
     <!-- <img src="trash.svg" alt="trash icon" onclick="removeTodo(this)" /> --!>
     <svg alt="trash icon" onclick="removeTodo(this)">
-        <use xlink:href="/trash.svg#trash"></use>
+        <use xlink:href="./trash.svg#trash"></use>
     </svg>
     `;
     todoElements.unshift(oneTodo);
