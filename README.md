@@ -13,8 +13,8 @@ This project is the result of a web lab from a class at Télécom Paris as part 
 
 The goal was to create a simple to-do app that uses local storage to stay persistent across reloads. 
 Other requirements included:
-- ability to load tasks from a file on the server using the fetch() api
-- prevent from putting two times the same to-do
+- ability to load tasks from a file on the server using the `fetch()` api
+- prevent from inputting an already-existing task
 - ability to remove all the completed tasks at once
 
 ## Want to try it?
