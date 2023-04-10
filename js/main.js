@@ -71,6 +71,8 @@ function addTodo(event) {
 document.getElementById("addTodo").onkeyup = addTodo;
 
 Object.keys(localStorage).forEach((key) => {
-    createTodo(key, JSON.parse(localStorage.getItem(key)));
+    if (localStorage.getItem(key) == "false" || localStorage.getItem(key) == "true" ) {
+        createTodo(key, JSON.parse(localStorage.getItem(key)));
+    };
 });
 populateTodo();
